@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+
+    // Задание 1
+        var tempC = prompt('Введите температуру в градусах Цельсия');
+        var tempNum = isNaN(tempC);
+        console.log(tempNum);
+        if (tempNum == true) {
+            alert('Введенное значение не является числом. Преобразование не возможно');
+        } else {
+            var tempF = tempC * 9 / 5 - 32;
+            alert('Температура по Фаренгейту равна ' + tempF + ' градусов');
+        };
+
+    // Задание 2
+
+    var admim;
+    var name;
+
+    name = 'Василий';
+    admin = name;
+    alert(admin);
+
+    // Задание 4
+    var result = 1000 + "108";
+    alert(result);
+    // Оператор "+" выполняет функцию склеивания, так как один из операндов не является числом
+
+    // Дополнительное задание
+    var a = parseFloat(prompt('Введите число а:'));
+    var b = parseFloat(prompt('Введите число b:'));
+
+    b = b + a;
+    a = b - a;
+    b = b - a;
+
+    alert('Теперь а = ' + a  + '\n b = ' + b);
+
+
+
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
